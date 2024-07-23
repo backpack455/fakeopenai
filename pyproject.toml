@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fakeopenai"
+version = "0.1.0"
+description = ""
+authors = ["Om Joshi <joshiom28@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "^1.37.0"
+llama-cpp-python = {extras = ["server"], version = "^0.2.83"}
+pydantic = "^2.8.2"
+instructor = "^1.3.5"
+streamlit = "^1.36.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
